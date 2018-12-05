@@ -16,7 +16,9 @@ int main()
 	{
 		while(!forward_increasing.empty() && forward_increasing.top()<a[i])
 		forward_increasing.pop();
-        long long last=a[i];
+		forward_increasing.push(a[i]);
+        long long last=forward_increasing.top();
+        forward_increasing.pop();
         if(!forward_increasing.empty())
         {
             long long prev=forward_increasing.top();
@@ -32,7 +34,9 @@ int main()
 	{
 		while(!backward_increasing.empty() && backward_increasing.top()<a[i])
 		backward_increasing.pop();
-        long long last=a[i];
+		backward_increasing.push(a[i]);
+        long long last=backward_increasing.top();
+        backward_increasing.pop();
         if(!backward_increasing.empty())
         {
             long long prev=backward_increasing.top();

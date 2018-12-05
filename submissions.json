@@ -1137,6 +1137,22 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF46638379": {
+    "contest_id": 281,
+    "language": "GNU C++14",
+    "path": "codeforces\\281\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Maximum Xor Secondary",
+    "problem_url": "https://codeforces.com/contest/281/problem/D",
+    "submission_id": "CF46638379",
+    "submission_url": "https://codeforces.com/contest/281/submission/46638379",
+    "tags": [
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Dec/05/2018 13:41"
+  },
   "CF46638437": {
     "contest_id": 281,
     "language": "GNU C++14",
