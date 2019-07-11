@@ -1137,6 +1137,22 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF56824841": {
+    "contest_id": 1189,
+    "language": "GNU C++14",
+    "path": "codeforces\\1189\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Keanu Reeves",
+    "problem_url": "https://codeforces.com/contest/1189/problem/A",
+    "submission_id": "CF56824841",
+    "submission_url": "https://codeforces.com/contest/1189/submission/56824841",
+    "tags": [
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jul/11/2019 08:54"
+  },
   "CF56826260": {
     "contest_id": 1189,
     "language": "GNU C++14",
