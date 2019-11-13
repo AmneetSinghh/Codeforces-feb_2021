@@ -1137,6 +1137,22 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF64781713": {
+    "contest_id": 1247,
+    "language": "GNU C++14",
+    "path": "codeforces\\1247\\B1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B1",
+    "problem_name": "TV Subscriptions (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1247/problem/B1",
+    "submission_id": "CF64781713",
+    "submission_url": "https://codeforces.com/contest/1247/submission/64781713",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Nov/13/2019 12:55"
+  },
   "CF64789909": {
     "contest_id": 1247,
     "language": "GNU C++14",
