@@ -1,74 +1,105 @@
-//// Journey of Harry Singh from Diploma in Cse to Red Coder of India.///////////////////////////////////////////////////
-#include <bits/stdc++.h>
-#define ll long long
+#include<bits/stdc++.h>
 using namespace std;
- 
-int main(){
-	int m,s;cin>>m>>s;
-	string r="";
-	int dd=s;
-	if(m<=1 && s==0)
-	cout<<"0 0\n";
-	else if(s==0  && m>1)
-	cout<<"-1 -1\n";
-	else if(m*9<s)
-	cout<<"-1 -1\n";
-	else
-	{
-		// this is the largest
-		
-		
-		for(int i=1;i<=m;i++)
-		{
-		int v=9-(9-s);
-		string d=to_string(v);
-		
-		if(9-s<=0){
-		r+="9";
-		s-=9;}
-		else if((9-s)>=1){
-		r+=d;
-		s=0;}
-		else if(s==0)
-		r+="0";
-		}
 
-		// this is the smallest
-		s=dd;
-		string d="";
-		int sum=0;
-		for(int i=1;i<=m;i++)
+int main()
+{
+	    ios_base::sync_with_stdio(false);
+	        cin.tie(NULL);
+
+int m,s;
+cin>>m>>s;
+int value=0;
+for(int i=1;i<=m;i++)
+value+=9;
+if(m==1 && s<=9)
+cout<<s<<" "<<s<<endl;
+else if(s>value)
+cout<<"-1 -1\n";
+else if(s==0)
+cout<<"-1 -1\n";
+else
+{
+	
+// for the min elements bro
+int mi[m+1];
+int count=1;
+mi[1]=1;
+for(int i=2;i<=m;i++)
+mi[i]=0;
+
+int j=m;
+while(true)
+{
+	if(count==s)
+	break;
+	else if(count<s)
+	{
+		if(mi[j]<9){
+		mi[j]++;
+		count++;}
+		else
 		{
-			int ind=0;
-			if(s==0)
-			d+="0";
-			else
-			{
-				if(i==1)
-				{
-					for(int j=1;j<=9;j++)
-					{
-					int n=m-i;
-					if((j+(n*9))>=s){
-					ind=j;s-=j;break;}
-					}
-				}
-				else
-				{
-					for(int j=0;j<=9;j++)
-					{
-					int n=m-i;
-					if((j+(n*9))>=s){
-					ind=j;s-=j;break;}
-					}
-				}
-				
-				d=d+to_string(ind);
-			}
+			--j;
+			mi[j]++;
+			count++;
+		}
+	}
+}
+// the minumuj
+for(int i=1;i<=m;i++)
+cout<<mi[i];
+
+
+
+
+
+// for the maximum
+
+int mx[m+1];
+ count=m*9;
+for(int i=1;i<=m;i++)
+mx[i]=9;
+
+ j=m;
+while(true)
+{
+	if(count==s)
+	break;
+
+	 if(count>s)
+	{
+		
+		if(mx[j]==0)
+		{
+		--j;
+		mx[j]--;
+		count--;
 			
 		}
-		cout<<d<<" "<<r<<"\n";
-		
+		else if(mx[j]>0)
+		{
+			count--;
+			mx[j]--;
+		}
 	}
-	
 }
+// the minumuj
+cout<<" ";
+for(int i=1;i<=m;i++)
+cout<<mx[i];
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
