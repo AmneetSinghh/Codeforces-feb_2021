@@ -33,7 +33,7 @@ int main() {
 		else
 		{
 			count+= min(abs(m-l), abs(m-r));			
-	count+=(r-l);
+	count+= max(r-l, 0);
 	cout<<count<<endl;
 
 		}
