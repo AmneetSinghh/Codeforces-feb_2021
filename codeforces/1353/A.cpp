@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+#define ll long long
+using namespace std;
+int main(){
+	int t;cin>>t;while(t--){
+		ll n,m;cin>>n>>m;
+		if(n==1)
+		cout<<"0\n";
+		else if(n==2)cout<<m<<endl;
+		else if(n>=3)
+		{
+			cout<<m*2<<endl;
+		}
+		
+	}
+}
