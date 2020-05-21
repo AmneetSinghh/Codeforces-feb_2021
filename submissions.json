@@ -1137,6 +1137,22 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF80883157": {
+    "contest_id": 1180,
+    "language": "GNU C++14",
+    "path": "codeforces\\1180\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Tolik and His Uncle",
+    "problem_url": "https://codeforces.com/contest/1180/problem/D",
+    "submission_id": "CF80883157",
+    "submission_url": "https://codeforces.com/contest/1180/submission/80883157",
+    "tags": [
+      "constructive algorithms",
+      "*1800"
+    ],
+    "timestamp": "May/22/2020 00:47"
+  },
   "CF80887969": {
     "contest_id": 1180,
     "language": "GNU C++14",
