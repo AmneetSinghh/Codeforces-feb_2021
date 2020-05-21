@@ -1137,6 +1137,23 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF80873159": {
+    "contest_id": 898,
+    "language": "GNU C++14",
+    "path": "codeforces\\898\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Phone Numbers",
+    "problem_url": "https://codeforces.com/contest/898/problem/C",
+    "submission_id": "CF80873159",
+    "submission_url": "https://codeforces.com/contest/898/submission/80873159",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "May/21/2020 22:20"
+  },
   "CF80873295": {
     "contest_id": 1202,
     "language": "GNU C++14",
