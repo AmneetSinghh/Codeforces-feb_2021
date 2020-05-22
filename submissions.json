@@ -1137,6 +1137,24 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF80958961": {
+    "contest_id": 1187,
+    "language": "GNU C++14",
+    "path": "codeforces\\1187\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Vasya And Array",
+    "problem_url": "https://codeforces.com/contest/1187/problem/C",
+    "submission_id": "CF80958961",
+    "submission_url": "https://codeforces.com/contest/1187/submission/80958961",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "May/22/2020 23:17"
+  },
   "CF80980567": {
     "contest_id": 131,
     "language": "GNU C++14",
