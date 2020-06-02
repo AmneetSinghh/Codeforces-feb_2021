@@ -1137,6 +1137,23 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF82320066": {
+    "contest_id": 1230,
+    "language": "GNU C++14",
+    "path": "codeforces\\1230\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ania and Minimizing",
+    "problem_url": "https://codeforces.com/contest/1230/problem/B",
+    "submission_id": "CF82320066",
+    "submission_url": "https://codeforces.com/contest/1230/submission/82320066",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jun/02/2020 20:27"
+  },
   "CF82332421": {
     "contest_id": 1230,
     "language": "GNU C++14",
