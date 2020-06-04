@@ -1137,6 +1137,27 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF82442915": {
+    "contest_id": 339,
+    "language": "GNU C++14",
+    "path": "codeforces\\339\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Xenia and Weights",
+    "problem_url": "https://codeforces.com/contest/339/problem/C",
+    "submission_id": "CF82442915",
+    "submission_url": "https://codeforces.com/contest/339/submission/82442915",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "Jun/04/2020 08:03"
+  },
   "CF82445627": {
     "contest_id": 350,
     "language": "GNU C++14",
