@@ -1137,6 +1137,22 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF82635163": {
+    "contest_id": 1013,
+    "language": "GNU C++14",
+    "path": "codeforces\\1013\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "And",
+    "problem_url": "https://codeforces.com/contest/1013/problem/B",
+    "submission_id": "CF82635163",
+    "submission_url": "https://codeforces.com/contest/1013/submission/82635163",
+    "tags": [
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Jun/05/2020 19:12"
+  },
   "CF82681176": {
     "contest_id": 1013,
     "language": "GNU C++14",
