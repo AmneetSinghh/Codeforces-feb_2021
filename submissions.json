@@ -1137,6 +1137,23 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF82681176": {
+    "contest_id": 1013,
+    "language": "GNU C++14",
+    "path": "codeforces\\1013\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Photo of The Sky",
+    "problem_url": "https://codeforces.com/contest/1013/problem/C",
+    "submission_id": "CF82681176",
+    "submission_url": "https://codeforces.com/contest/1013/submission/82681176",
+    "tags": [
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jun/06/2020 12:20"
+  },
   "CF82694486": {
     "contest_id": 1012,
     "language": "GNU C++14",
