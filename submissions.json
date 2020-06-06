@@ -1137,6 +1137,26 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF82694486": {
+    "contest_id": 1012,
+    "language": "GNU C++14",
+    "path": "codeforces\\1012\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chemical table",
+    "problem_url": "https://codeforces.com/contest/1012/problem/B",
+    "submission_id": "CF82694486",
+    "submission_url": "https://codeforces.com/contest/1012/submission/82694486",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "matrices",
+      "*1900"
+    ],
+    "timestamp": "Jun/06/2020 15:44"
+  },
   "CF82700186": {
     "contest_id": 1038,
     "language": "GNU C++14",
