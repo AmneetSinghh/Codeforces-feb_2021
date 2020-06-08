@@ -84,22 +84,22 @@ void we_have_choices()
 		cin>>x>>y>>a>>b>>c>>d;
 		if(a==0)
 		{
-			// if(right<x)flag=1;
+			if(right<x)flag=1;
 			left=max(left,x);
 		}
 		if(b==0)
 		{
-			// if(down>y)flag=1;
+			if(down>y)flag=1;
 			up=min(up,y);
 		}
 		if(c==0)
 		{ 
-			// if(left>x)flag=1;
+			if(left>x)flag=1;
 			right=min(right,x);
 		}
 		if(d==0)
 		{
-			// if(up<y)flag=1;
+			if(up<y)flag=1;
 			down=max(down,y);
 		}
 	}
