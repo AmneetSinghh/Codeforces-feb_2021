@@ -81,14 +81,22 @@ void we_have_choices()
         sum[i]=sum[i-1]+r[i]-l[i];
         if(i==1)de[i]=0;
         else de[i]=de[i-1]+l[i]-r[i-1];
+
+
     }
 
+    // for(int i=1;i<=n;i++)
+    //     cout<<sum[i]<<" "<<de[i]<<"\n";
 
+
+    // cout<<"now\n";
     for(int i=1;i<=n;i++){
         int pos=lower_bound(de+i,de+n+1,de[i]+h)-de;
+
         ans=max(ans,sum[pos-1]-sum[i-1]+h);
 
     }
+
 
 
 cout<<ans<<"\n";
