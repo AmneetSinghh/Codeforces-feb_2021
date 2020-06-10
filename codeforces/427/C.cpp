@@ -169,7 +169,9 @@ while(!s.empty())
     }
 }
 
-
+if(m==0)
+    cout<<sum<<" 1\n";
+else
 cout<<sum<<" "<<ways<<"\n";
 
 
