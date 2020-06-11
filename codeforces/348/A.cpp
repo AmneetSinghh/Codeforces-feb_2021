@@ -124,7 +124,7 @@ int r=100000000009;
 int ans=0;
 while(l<=r){
     int mid=(l+r)/2;
-    if(mid>=mx && (mid)*(n-1)>=sum)
+    if(mid>=mx && mid*n-mid>=sum)
     ans=mid,r=mid-1;
     else l=mid+1;
 
