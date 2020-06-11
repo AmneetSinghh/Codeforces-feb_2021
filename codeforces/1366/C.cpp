@@ -119,28 +119,18 @@ cin>>n>>m;
 F(i,n){F(j,m)
 {
 cin>>val;
-if(val==1)o[i+j-1]++;
-else z[i+j-1]++;
+if(val==1)o[i+j]++;
+else z[i+j]++;
 }}
 
-
 int range=n+m;
-if(range%2==1)
+if(range%2==0)
 range=range/2;
-else range=(range/2)-1;
+else range=(range/2)+1;
 
+for(int i=2;i<=range;i++)
+total+=min(z[i]+z[n+m+2-i],o[i]+o[n+m+2-i]);
 
-// for(int i=1;i<=n+m;i++)
-// cout<<o[i]<<" "<<z[i]<<"\n";
-
-
-for(int i=1;i<=range;i++){
-total+=min(z[i]+z[(n+m)-i],o[i]+o[(n+m)-i]);
-// cout<<i<<" "<<(n+m)-i<<"\n";
-
-// cout<<z[i]<<" "<<z[(n+m)-i]<<" "<<o[i]<<" "<<o[(n+m)-i]<<"\n";
-
-}
 cout<<total<<"\n";
 }
 
