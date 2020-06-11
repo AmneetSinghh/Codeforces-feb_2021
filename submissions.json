@@ -1137,6 +1137,22 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF83381440": {
+    "contest_id": 235,
+    "language": "GNU C++14",
+    "path": "codeforces\\235\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "LCM Challenge",
+    "problem_url": "https://codeforces.com/contest/235/problem/A",
+    "submission_id": "CF83381440",
+    "submission_url": "https://codeforces.com/contest/235/submission/83381440",
+    "tags": [
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Jun/11/2020 18:15"
+  },
   "CF83385078": {
     "contest_id": 343,
     "language": "GNU C++14",
