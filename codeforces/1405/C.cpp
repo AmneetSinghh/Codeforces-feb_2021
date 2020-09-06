@@ -36,33 +36,27 @@ void Waheguru()
 	cin>>n>>k;
    string s;
    cin>>s;
-   int one=0,zero=0;
-   int c1=0,c2=0;
-   bool imp=true;
+   int one=0,two=0,three=0;
+   int c1=0,c2=0,c3=0;
+   bool imp=false;
    f(i,k)
    {
-   	one=0,zero=0;// if all the ?'s then we can count mere baby
+   	one=0,two=0,three=0;
    	for(int j=i;j<n;j+=k)
    	{
    		if(s[j]=='1')one=1;
-   		if(s[j]=='0')zero=1;
+   		if(s[j]=='0')two=1;
+   		if(s[j]=='?')three=1;
    	}
-   	if(one+zero==2){imp=false;break;}
+   	if(one+two==2)imp=true;
    	if(one==1)c1++;
-   	else if(zero==1)c2++;
+   	else if(two==1)c2++;
+   	else if(three==1)c3++;
    }
 
-  one=c1;
-  zero=c2;
-  if(zero>k/2 || one>k/2)imp=false;// Both are less than k/2
-  int first=k-(one+zero);// left all that are the ?'s
-  if(one<k/2)one=one+((k/2)-one),  first-=(((k/2)-one));
-  if(first<0)imp=false;
 
-  if(zero<k/2)zero=zero+((k/2)-zero),first-=(((k/2)-zero));
-  if(first<0)imp=false;
-  if(imp==true)cout<<"YES\n";
-  else cout<<"NO\n";
+   if(imp==false && c1+c3>=k/2 && c2+c3>=k/2)cout<<"YES\n";
+   else cout<<"NO\n";
 
 }
 
