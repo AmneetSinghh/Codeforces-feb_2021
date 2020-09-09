@@ -1137,6 +1137,25 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF92383386": {
+    "contest_id": 893,
+    "language": "GNU C++14",
+    "path": "codeforces\\893\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Credit Card",
+    "problem_url": "https://codeforces.com/contest/893/problem/D",
+    "submission_id": "CF92383386",
+    "submission_url": "https://codeforces.com/contest/893/submission/92383386",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Sep/10/2020 01:27"
+  },
   "CF92404649": {
     "contest_id": 229,
     "language": "GNU C++14",
