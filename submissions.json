@@ -1137,6 +1137,21 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF92694381": {
+    "contest_id": 854,
+    "language": "GNU C++14",
+    "path": "codeforces\\854\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Planning",
+    "problem_url": "https://codeforces.com/contest/854/problem/C",
+    "submission_id": "CF92694381",
+    "submission_url": "https://codeforces.com/contest/854/submission/92694381",
+    "tags": [
+      "*1500"
+    ],
+    "timestamp": "Sep/13/2020 13:37"
+  },
   "CF92694437": {
     "contest_id": 854,
     "language": "GNU C++14",
