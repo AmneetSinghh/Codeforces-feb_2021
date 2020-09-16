@@ -34,53 +34,27 @@ I'll be The _Candidate Master_
 (Patience and Practice)  */
 int a[N+1];
 int dp[N+1][3];
-int n;
-int cal(int i,int j)
-{
-  if(i==n+1)return 0;
-  if(dp[i][j]!=-1)return dp[i][j];
-  int res=inf;
-  if(j==0)// person first
-  {
-   res=min(res,a[i]+cal(i+1,1));
-   if(i<n)res=min(res,a[i]+a[i+1]+cal(i+2,1));// this means another person
-  }
-  else
-  {
-    res=min(res,cal(i+1,0));
-    if(i<n)res=min(res,cal(i+2,0));
-  }
-
-  dp[i][j]=res;
-  return res;
-}
-
-
-
-
-
-
+// int ans=inf;
+// int cal(int n,int point)
+// {
+  
+// }
 void Waheguru()
 {
+  int n;
   cin>>n;
   F(i,n)cin>>a[i];
-  //  for(int i=0;i<=n;++i)for(int j=0;j<2;++j)dp[i][j]=1e9;
-  // dp[0][0]=0;
-  //       for(int i=0;i<n;++i) {
-  //           // j == 0
-  //           dp[i+1][1] = min(dp[i+1][1], dp[i][0] + a[i+1]);
-  //           dp[i+2][1] = min(dp[i+2][1], dp[i][0] + a[i+1] + a[i+2]);
-  //           // j == 1
-  //           dp[i+1][0] = min(dp[i+1][0], dp[i][1]);
-  //           dp[i+2][0] = min(dp[i+2][0], dp[i][1]);
-  //       }
-  //       cout<<min(dp[n][0],dp[n][1])<<endl;
-
-
-
-  F(i,n)dp[i][1]=-1,dp[i][0]=-1;
-  cout<<cal(1,0);
-  tr;
+   for(int i=0;i<=n;++i)for(int j=0;j<2;++j)dp[i][j]=1e9;
+  dp[0][0]=0;
+        for(int i=0;i<n;++i) {
+            // j == 0
+            dp[i+1][1] = min(dp[i+1][1], dp[i][0] + a[i+1]);
+            dp[i+2][1] = min(dp[i+2][1], dp[i][0] + a[i+1] + a[i+2]);
+            // j == 1
+            dp[i+1][0] = min(dp[i+1][0], dp[i][1]);
+            dp[i+2][0] = min(dp[i+2][0], dp[i][1]);
+        }
+        cout<<min(dp[n][0],dp[n][1])<<endl;
 }
 
 
