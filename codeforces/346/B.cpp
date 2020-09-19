@@ -11,10 +11,13 @@ int dp[101][101][101];
 
 void kmp()
 {
-	int j = 0;
+		int j = 0;
+	// this is the prefix function pencho
 	for (int i = 1;i<v.size(); ++i){
-		while (j && v[j] != v[i])j = f[j - 1];
-		if (v[i] == v[j])++j;
+		while (j && v[j] != v[i])
+			j = f[j - 1];
+		if (v[i] == v[j])
+			++j;
 		f[i] = j;
 	}
 }
@@ -52,6 +55,5 @@ int main()
 	memset(dp, -1, sizeof(dp));
 	if (!calc(0, 0, 0))cout<<"0";
 	else print(0,0,0);
-	
-	return 0;
+	tr;
 }
