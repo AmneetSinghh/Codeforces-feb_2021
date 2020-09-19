@@ -1137,6 +1137,23 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF93177952": {
+    "contest_id": 406,
+    "language": "GNU C++14",
+    "path": "codeforces\\406\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Toy Sum",
+    "problem_url": "https://codeforces.com/contest/406/problem/B",
+    "submission_id": "CF93177952",
+    "submission_url": "https://codeforces.com/contest/406/submission/93177952",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Sep/19/2020 14:31"
+  },
   "CF93193304": {
     "contest_id": 346,
     "language": "GNU C++14",
