@@ -28,7 +28,7 @@ int F(int i, char &c){
 }
 int calc(int i, int j, int k)
 {
-	if(k==v.size())return -1;
+	if (k==v.size())return -101;
 	if (i==A.size() || j==B.size())return 0;
 	if (dp[i][j][k] == -1){
 		dp[i][j][k] = max(calc(i + 1, j, k), calc(i, j + 1, k));// just as previous simple longest common subsequence
