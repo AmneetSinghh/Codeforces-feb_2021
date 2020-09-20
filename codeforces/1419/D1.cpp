@@ -35,38 +35,37 @@ I'll be The _Candidate Master_
  
 void Waheguru()
 {
-int n,val;
-vector<int> a,b;
+int n;
 cin>>n;
-F(i,n)cin>>val,a.pb(val),b.pb(val);
-int dp[n+1]={0};
-int flag=0;
-sort(a.begin(),a.end());
-sort(b.begin(),b.end(),greater<int>());
-int first=0,second=0;
-for(int i=1;i<=n;i++)
+int a[n+1];
+F(i,n)cin>>a[i];
+if(n%2==0)cout<<(n/2)-1;
+else cout<<(n)/2;
+tr;
+ 
+sort(a+1,a+1+n,greater<int>());
+for(int i=1;i<=n;i+=3)
 {
-	if(!flag)dp[i]=b[first],first++;
-	else dp[i]=a[second],++second;
-	flag^=1;
-}
-
-int c=0;
-for(int i=1;i<=n;i++)
-	if(i>1 && i<n  && dp[i]<dp[i-1] && dp[i]<dp[i+1])++c;
-
-cout<<c;
-tr;
-F(i,n)cout<<dp[i]<<" ";
-tr;
-
-
+  cout<<a[i]<<" ";
+  if(i+2<=n)cout<<a[i+2]<<" ";
+  if(i+1<=n)cout<<a[i+1]<<" ";
+  break;
 }
  
-
-
-
-
+for(int i=4;i<=n;i+=2)
+{
+	if(i+1<=n)cout<<a[i+1]<<" ";
+	cout<<a[i]<<" ";
+}
+ 
+tr;
+ 
+}
+ 
+ 
+ 
+ 
+ 
 int32_t main()
 {
 #ifndef ONLINE_JUDGE
