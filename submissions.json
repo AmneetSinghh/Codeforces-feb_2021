@@ -1137,6 +1137,27 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF93535725": {
+    "contest_id": 1257,
+    "language": "GNU C++14",
+    "path": "codeforces\\1257\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Yet Another Monster Killing Problem",
+    "problem_url": "https://codeforces.com/contest/1257/problem/D",
+    "submission_id": "CF93535725",
+    "submission_url": "https://codeforces.com/contest/1257/submission/93535725",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Sep/23/2020 12:18"
+  },
   "CF93547329": {
     "contest_id": 1234,
     "language": "GNU C++14",
