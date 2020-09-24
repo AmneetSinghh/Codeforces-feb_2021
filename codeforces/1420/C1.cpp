@@ -34,10 +34,10 @@ using namespace std;
 I'll be The _Candidate Master_ 
 (Patience and Practice)  */
  
- 
+
 void Waheguru()
 {
- 
+
 int n,q;
 cin>>n>>q;
 int a[n+1];
@@ -45,7 +45,7 @@ int mx=0;
 F(i,n)cin>>a[i],mx=max(a[i],mx);
 int flag=0,cur=0;
 vector<int> vc;
- 
+
 if(n>=2  && a[1]>=a[2])cur=a[1];
 for(int i=2;i<=n;i++)
 {
@@ -68,15 +68,15 @@ for(int i=2;i<=n;i++)
    }
    else continue;
 }
- 
- 
+
+
 if(vc.size()%2==0 && vc.size()>0 && cur!=vc[vc.size()-1])vc.pb(cur);
 // for(auto sd:vc)cout<<sd<<" ";
 //     tr;
- 
- 
+
+
 int second=0;
- 
+
 if(vc.size()%2==0  && vc.size()>0)
 {
     int flag=0;
@@ -86,7 +86,7 @@ if(vc.size()%2==0  && vc.size()>0)
          if(flag==0)second-=vc[i],flag=1;
           else second+=vc[i],flag=0;
     }
- 
+
     mx=max(second,mx);
 }
 else if(vc.size()>0 && vc.size()%2==1)
@@ -98,13 +98,13 @@ else if(vc.size()>0 && vc.size()%2==1)
          if(flag==0)second-=vc[i],flag=1;
           else second+=vc[i],flag=0;
     }
- 
+
     mx=max(second,mx);
 }
 cout<<mx;
 tr;
- 
- 
+
+
 }
  
  
