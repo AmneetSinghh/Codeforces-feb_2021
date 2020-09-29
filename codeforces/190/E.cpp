@@ -1,57 +1,107 @@
+/*
+|********************************************** Not_Stable *********************************************************|                                                                |
+|As I always say Let's not Make it complicated, baby                                                                |
+|   **     *   *******  *********                                                                                   |
+|   * *    *  *      *      *                                                                                       |
+|   *  *   *  *      *      *                                                                                       |
+|   *   *  *  *      *      *                                                                                       |
+|   *    * *  *      *      *                                                                                       |
+|   *     **   ******       *                                                                                       |
+|                            ******    **********   ******    ******  *         *******                             |
+|                            *             *       *      *  *    *   *         *                                   |
+|                             ******       *       *      *  *  **    *         *******                             |
+|                                  *       *       * **** *  *    *   *         *                                   |
+|                                 *        *       *      *  *     *  *         *                                   |
+|                            *****         *       *      *   ******   *******  *******                             |
+|Keep it Simple baby!                                                                                               |
+|Rules are meant for breaking,baby                                                                                  |
+|Let's Not make it complicated.                                                                                     |
+|********************************************** Not_Stable ********************************************************* 
+*/
 #include<bits/stdc++.h>
- 
+// #define int long long
+// #define ll long long
+#define double double
+#define io ios_base::sync_with_stdio(false),cin.tie(nullptr);
+#define ipair pair<int,int>
+#define pb push_back
+#define f(i,n) for(int i=0;i<n;i++)
+#define fo(i,n) for(int i=n;i>=0;i--)
+#define F(i,n) for(int i=1;i<=n;i++)
+#define f_a(a,i,n) for(int i=a;i<=n;i++)
+#define f_b(a,i,b) for(int i=a;i<=b;i++)
+#define FO(i,n) for(int i=n;i>=1;i--)
+#define tr cout<<"\n" 
+#define br break
+#define all(v) v.begin(),v.end()
+#define inf 1000000000000009
+#define ff first
+#define mod 1000000007
+#define ss second
+#define br break
 using namespace std;
+/*  I know I have that Ability, I can do anything, 
+I'll be The _Candidate Master_ 
+(Patience and Practice)  */
 const int MAXN = 500100;
- 
-unordered_set<int> grafo[MAXN],s;
-vector<int> vec;
- 
-void dfs(int x){
-	vec.push_back(x);
-	
-	vector<int> v;
-	
-	for(auto i : s){
-		if(grafo[x].find(i) != grafo[x].end()) continue;
-		v.push_back(i);
+unordered_set<int> G[MAXN],s_;/// unordered set find and erase and push is O(1)
+vector<int> v;
+int n,m,a,b;
+void dfs(int s)
+{
+	v.pb(s);
+	std::vector<int> cur;
+	for(auto c:s_)
+	{
+        if(G[s].find(c)!=G[s].end())continue;
+        cur.pb(c);
 	}
-	
-	for(int i = 0;i < v.size();i++) s.erase(v[i]);
-	for(int i = 0;i < v.size();i++) dfs(v[i]);
+	for(auto sd:cur)s_.erase(sd);
+	for(auto sd:cur)dfs(sd);
 }
- 
-int main(){
-	int n,m;
+void Not_Stable()
+{
 	scanf("%d %d",&n,&m);
-	
-	for(int i = 1;i <= n;i++) s.insert(i);
-	
-	for(int i = 1;i <= m;i++){
-		int x,y;
-		scanf("%d %d",&x,&y);
-		grafo[x].insert(y);
-		grafo[y].insert(x);
-	}	
-	
-	int cnt = 0;
-	
-	vector<int> resp;
-	
-	for(int i = 1;i <= n;i++){
-		if(s.find(i) == s.end()) continue;
-		vec.clear();
-		s.erase(i);
-		dfs(i);
-		cnt ++;
-		resp.push_back((int) vec.size());
-		for(int j = 0;j < vec.size();j++) resp.push_back(vec[j]);
-		resp.push_back(-1);
+	F(i,n)s_.insert(i);
+	F(i,m)
+	{
+		scanf("%d %d",&a,&b);
+       G[a].insert(b);
+       G[b].insert(a);
 	}
-	
-	printf("%d\n",cnt);
+	int ans=0;
+    vector<int> resp;
+
+	F(i,n)
+	{
+		if(s_.find(i)==s_.end())continue;// if not findded means visited;
+		v.clear();
+		s_.erase(i);
+		dfs(i);
+		++ans;
+		resp.pb((int)v.size());
+	    for(auto sd:v)resp.pb(sd);
+	    resp.pb(-1);
+	}
+	printf("%d\n",ans);
 	
 	for(int i = 0;i < resp.size();i++){
 		if(resp[i] == -1) printf("\n");
 		else printf("%d ",resp[i]);
 	}
+
+}
+ 
+ 
+ 
+int32_t main()
+{
+#ifndef ONLINE_JUDGE
+ freopen("input.txt","r",stdin);
+ freopen("output.txt","w",stdout);
+#endif
+    io;
+    int g=1;
+    while (g--)Not_Stable();
+    return 0;
 }

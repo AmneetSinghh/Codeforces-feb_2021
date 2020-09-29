@@ -1137,6 +1137,26 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF94220538": {
+    "contest_id": 190,
+    "language": "GNU C++14",
+    "path": "codeforces\\190\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Counter Attack",
+    "problem_url": "https://codeforces.com/contest/190/problem/E",
+    "submission_id": "CF94220538",
+    "submission_url": "https://codeforces.com/contest/190/submission/94220538",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "hashing",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Sep/29/2020 20:11"
+  },
   "CF94260686": {
     "contest_id": 920,
     "language": "GNU C++14",
