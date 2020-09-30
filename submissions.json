@@ -1137,6 +1137,24 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF94357978": {
+    "contest_id": 1408,
+    "language": "GNU C++17",
+    "path": "codeforces\\1408\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Arrays Sum",
+    "problem_url": "https://codeforces.com/contest/1408/problem/B",
+    "submission_id": "CF94357978",
+    "submission_url": "https://codeforces.com/contest/1408/submission/94357978",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Oct/01/2020 01:43"
+  },
   "CF94361239": {
     "contest_id": 1408,
     "language": "GNU C++17",
