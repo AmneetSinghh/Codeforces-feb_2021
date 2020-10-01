@@ -58,7 +58,7 @@ So we have to find fast like in O(1) use the unordered_set or unordered_map
 void Not_Stable() {
 	   
      long double h,l; cin >> h >> l;
-    long double ans = (l-h) * (l+h);
+    long double ans = (l*l) - (h*h);
     ans /= 2 * h;
     cout <<fixed<<setprecision(14)<< ans << endl;
 }
