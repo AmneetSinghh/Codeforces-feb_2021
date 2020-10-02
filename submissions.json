@@ -1137,6 +1137,22 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF94477396": {
+    "contest_id": 24,
+    "language": "GNU C++17",
+    "path": "codeforces\\24\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "F1 Champions",
+    "problem_url": "https://codeforces.com/contest/24/problem/B",
+    "submission_id": "CF94477396",
+    "submission_url": "https://codeforces.com/contest/24/submission/94477396",
+    "tags": [
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Oct/02/2020 15:42"
+  },
   "CF94478040": {
     "contest_id": 24,
     "language": "GNU C++17",

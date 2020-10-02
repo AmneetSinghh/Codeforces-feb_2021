@@ -34,11 +34,12 @@
 #define tr cout<<"\n" 
 #define br break
 #define all(v) v.begin(),v.end()
-#define ff first
-#define ss second
-#define maxn 1000010
-#define mod 1000000007
 #define inf 1000000000000009
+#define ff first
+#define mod 1000000007
+#define ss second
+#define br break
+#define maxn 1000010
 #define vs vector<string>
 #define vi vector<int>
 
@@ -53,8 +54,6 @@ I'll be The _Candidate Master_
 unordered_set->  find ,insert,erase     O(1);
 unordered_map->   find,insert,erase     O(1);
 So we have to find fast like in O(1) use the unordered_set or unordered_map
-
-NOTE:we can compare two vectors like   v1>v2 and v1==v2 it is also a same condition for v 2d vector,
 */  
 //
 
@@ -86,7 +85,7 @@ void Not_Stable() {
     		if (i < 10) score[s] += points[i];
     		else score[s] += 0;
     		if (!pos.count(s)) pos[s] = vi(60,0);
-			pos[s][i]++;// string has a vector baby
+			pos[s][i]++;
     	}
     }
     vs res;
