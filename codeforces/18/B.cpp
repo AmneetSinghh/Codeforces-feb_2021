@@ -74,7 +74,7 @@ if(m==l+1)
 	tr;
 	return;
 }
-for(int i=1;i<=1000006;i++)
+for(int i=1;i<=5000007;i++)
 {
    int mul=i*d;
    if(mul<=l)continue;
