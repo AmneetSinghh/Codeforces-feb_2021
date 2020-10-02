@@ -1137,6 +1137,22 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF94486627": {
+    "contest_id": 22,
+    "language": "GNU C++17",
+    "path": "codeforces\\22\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "System Administrator",
+    "problem_url": "https://codeforces.com/contest/22/problem/C",
+    "submission_id": "CF94486627",
+    "submission_url": "https://codeforces.com/contest/22/submission/94486627",
+    "tags": [
+      "graphs",
+      "*1700"
+    ],
+    "timestamp": "Oct/02/2020 17:39"
+  },
   "CF94491682": {
     "contest_id": 22,
     "language": "GNU C++17",
