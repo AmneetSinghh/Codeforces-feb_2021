@@ -1137,6 +1137,23 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF94563065": {
+    "contest_id": 958,
+    "language": "GNU C++17",
+    "path": "codeforces\\958\\F2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F2",
+    "problem_name": "Lightsabers (medium)",
+    "problem_url": "https://codeforces.com/contest/958/problem/F2",
+    "submission_id": "CF94563065",
+    "submission_url": "https://codeforces.com/contest/958/submission/94563065",
+    "tags": [
+      "binary search",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Oct/03/2020 16:20"
+  },
   "CF94652107": {
     "contest_id": 983,
     "language": "GNU C++17",
