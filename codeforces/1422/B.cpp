@@ -65,7 +65,7 @@ int Same_Prime_Divisors_Or_Not(int a,int b)
 }
 
 void Not_Stable() {
-int r,c;cin>>r>>c;
+	int r,c;cin>>r>>c;
 int a[r+1][c+1];
 F(i,r)F(j,c)cin>>a[i][j];
 int ans=0;
@@ -80,10 +80,15 @@ for(int i=1;i<=n/2;i++)
       	 third=a[n-i+1][j];
       	fourth=a[n-i+1][m-j+1];
       	std::vector<int> v;
-      	v.pb(first),v.pb(second),v.pb(third),v.pb(fourth);
+      	v.pb(first);
+      	v.pb(second);
+      	v.pb(third);
+      	v.pb(fourth);
       	sort(v.begin(),v.end());
-      	int val=v[1];// sorted man;
-      	ans+=(v[1]-v[0]+v[2]-v[1]+v[3]-v[1]);
+      	int val=v[1];
+      	ans+=(v[1]-v[0]+v[2]-v[1]+v[3]-v[1]);// put into canter'
+
+
    }
 }
 
