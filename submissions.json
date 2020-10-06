@@ -1137,6 +1137,26 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF94836558": {
+    "contest_id": 739,
+    "language": "GNU C++17",
+    "path": "codeforces\\739\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Alyona and a tree",
+    "problem_url": "https://codeforces.com/contest/739/problem/B",
+    "submission_id": "CF94836558",
+    "submission_url": "https://codeforces.com/contest/739/submission/94836558",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Oct/06/2020 15:04"
+  },
   "CF94891766": {
     "contest_id": 1313,
     "language": "GNU C++17",
