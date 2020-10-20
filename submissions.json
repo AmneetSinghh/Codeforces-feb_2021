@@ -1137,6 +1137,23 @@
     ],
     "timestamp": "Feb/11/2021 01:37"
   },
+  "CF96095539": {
+    "contest_id": 1433,
+    "language": "GNU C++17",
+    "path": "codeforces\\1433\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Bookshelf",
+    "problem_url": "https://codeforces.com/contest/1433/problem/B",
+    "submission_id": "CF96095539",
+    "submission_url": "https://codeforces.com/contest/1433/submission/96095539",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Oct/20/2020 20:18"
+  },
   "CF96102973": {
     "contest_id": 1433,
     "language": "GNU C++17",
