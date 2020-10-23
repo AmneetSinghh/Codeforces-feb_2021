@@ -64,9 +64,6 @@ void Not_Stable()
 	int a[n+1];
 	F(i,n)cin>>a[i];
 int ans=0;
-
-
-/// just koi bhi subarray check kro if oh maximum banna start hogya, then next m values lai jao then try kari joi pencho
 f(i,m)
 {
 	int tmp=0;
