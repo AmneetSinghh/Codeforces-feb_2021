@@ -66,26 +66,35 @@ void Not_Stable()
 {
 int n;cin>>n;
 F(i,n)cin>>a[i];
-int pre=1,ans=0;
-for(int i=2;i<=n;i++)
-{
-    int cur=1;
-    while(pre--)
-    {
-    	int j;
-         for(j=i+1;j<=n;j++)
-         {
-         	if(a[j]>a[j-1])++cur;
-         	else break;
-         }
-         i=j;
-         --i;
-         if(pre!=0)++i,++cur;
-    }
-    pre=cur;
-    ++ans;
+vector<int> store;
 
+
+int i=2;
+while(i<=n)
+{
+   int j=i+1;
+   int cnt=1;
+   while(j<=n && a[j]>a[j-1])++j,++cnt;// How many acendings;
+   i=j;
+   store.pb(cnt);
 }
+
+
+int ans=0,pre=1;
+ i=0;
+while(i<store.size())
+{
+	int range=i+pre;
+	int next=0;
+	while(i<store.size() && i<range)
+	{
+          next+=store[i],++i;
+	}
+   i=range;
+   ans++;
+   pre=next;
+}
+
 cout<<ans;
 tr;
 
