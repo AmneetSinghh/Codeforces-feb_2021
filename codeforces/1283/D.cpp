@@ -65,11 +65,6 @@ const int maxn=200005;
 void Not_Stable()
 {
 
-
-int mi_range=-2e9;
-int mx_range=2e9;
-
-
 	set<ipair> pos;
 	set<int> ans;
 	set<int> vis;
@@ -114,10 +109,10 @@ int mx_range=2e9;
 		dst += ds;
 		vis.insert(x);
  
-		if (!vis.count(x - 1)  && x-1>=mi_range)
+		if (!vis.count(x - 1))
 			pos.insert({ds + 1, x - 1});
  
-		if (!vis.count(x + 1)&& x+1<=mx_range)
+		if (!vis.count(x + 1))
 			pos.insert({ds + 1, x + 1});
 	}
  
