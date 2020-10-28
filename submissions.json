@@ -1119,6 +1119,24 @@
     ],
     "timestamp": "Jan/08/2021 23:47"
   },
+  "CF97028543": {
+    "contest_id": 1104,
+    "language": "GNU C++17",
+    "path": "codeforces\\1104\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Game with modulo",
+    "problem_url": "https://codeforces.com/contest/1104/problem/D",
+    "submission_id": "CF97028543",
+    "submission_url": "https://codeforces.com/contest/1104/submission/97028543",
+    "tags": [
+      "binary search",
+      "interactive",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Oct/28/2020 23:31"
+  },
   "CF97055593": {
     "contest_id": 1295,
     "language": "GNU C++17",
