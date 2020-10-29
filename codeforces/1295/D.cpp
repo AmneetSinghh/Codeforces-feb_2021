@@ -67,8 +67,6 @@ f(i,d.size())sum[i]=0;
 			val-=(a-1)/res;
 			val-=sum[i];
 			dp[i]=val;// this is the final value;
-
-			if(res==gcd(a,m))break;
 			f(j,d.size()){if(res%d[j]==0)sum[j]+=dp[i];}
 		}
 
