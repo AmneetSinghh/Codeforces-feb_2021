@@ -1119,6 +1119,23 @@
     ],
     "timestamp": "Jan/08/2021 23:47"
   },
+  "CF97148427": {
+    "contest_id": 792,
+    "language": "GNU C++17",
+    "path": "codeforces\\792\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Paths in a Complete Binary Tree",
+    "problem_url": "https://codeforces.com/contest/792/problem/D",
+    "submission_id": "CF97148427",
+    "submission_url": "https://codeforces.com/contest/792/submission/97148427",
+    "tags": [
+      "bitmasks",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Oct/30/2020 13:15"
+  },
   "CF97171355": {
     "contest_id": 598,
     "language": "GNU C++17",
