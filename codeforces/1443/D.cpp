@@ -45,18 +45,19 @@ void Not_Stable()
 {
     int n;
     cin >> n;
-    int a[n+1];
-    f(i,n)cin >> a[i];
+    vector <ll> a(n);
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
     int minus=0;
-    // **Pre-compute**
-    int right[n+1];
-    right[n-1]=a[n-1];
-    for(int i=n-2;i>=0;i--)right[i]=min(right[i+1],a[i]);
-    for (int now = 1; now<n; now++)
+    std::vector<int> left(n);
+    left[0]=a[0];
+    F(i,n-1)left[i]=min(left[i-1],a[i]);
+
+    for (int now = n - 2; now > 0; now--)
     {
-        if (a[now-1] >= a[now]) continue;
-        minus+=(a[now]- a[now - 1]);
-        if(right[now]<minus){cout<<"No";tr;return;}
+        if (a[now] <= a[now + 1]) continue;
+        minus+=(a[now]- a[now + 1]);
+        if(left[now]<minus){cout<<"No";tr;return;}
         
     }
     cout << "Yes";tr;
