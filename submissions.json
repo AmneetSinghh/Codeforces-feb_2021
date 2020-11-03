@@ -1119,6 +1119,25 @@
     ],
     "timestamp": "Jan/08/2021 23:47"
   },
+  "CF97584848": {
+    "contest_id": 1443,
+    "language": "GNU C++17",
+    "path": "codeforces\\1443\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Saving the City",
+    "problem_url": "https://codeforces.com/contest/1443/problem/B",
+    "submission_id": "CF97584848",
+    "submission_url": "https://codeforces.com/contest/1443/submission/97584848",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Nov/03/2020 23:45"
+  },
   "CF97675061": {
     "contest_id": 1114,
     "language": "GNU C++17",
