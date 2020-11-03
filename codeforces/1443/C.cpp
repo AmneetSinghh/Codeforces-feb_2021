@@ -45,18 +45,30 @@ F(i,n)vc.pb({a[i],b[i]});
 vc.pb({0,0});
 sort(all(vc));
 int pre[n+1]={0};
-for(int i=1;i<vc.size();i++)pre[i]=pre[i-1]+vc[i].second;
+for(int i=1;i<vc.size();i++)
+pre[i]=pre[i-1]+vc[i].second;
 int ans=min(vc[n].first,pre[n]);
 int i=1;
+// for(auto sd:vc)cout<<sd.first<<" "<<sd.second<<"\n";
+// F(i,n)cout<<pre[i]<<" ";
+// tr;
 while(i<=n)
 {
 	int ff=vc[i].first;
 	int ss=vc[i].second;
 	int j=i;
-	ans=min(max(ff,(pre[n]-pre[j])),ans);
+	// cout<<ff<<" "<<ss<<" "<<i;
+	// tr;
 	while(j+1<=n && ff==vc[j+1].first){++j;}
-	if(j>i)ans=min(max(ff,(pre[n]-pre[j-1])),ans);
-	if(j>i)i=j;else ++i;
+	if(j==i)ans=min(max(ff,(pre[n]-pre[j])),ans);
+	else ans=min(max(ff,(pre[n]-pre[j-1])),ans);
+	
+	
+	// cout<<pre[n]-pre[j]<<" "<<pre[n]-pre[j-1]<<"----> "<<ans;
+	// tr;
+	
+	if(j!=i)i=j;
+	else ++i;
 
 }
 cout<<ans;
