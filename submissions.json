@@ -1119,6 +1119,24 @@
     ],
     "timestamp": "Jan/08/2021 23:47"
   },
+  "CF97675061": {
+    "contest_id": 1114,
+    "language": "GNU C++17",
+    "path": "codeforces\\1114\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Got Any Grapes?",
+    "problem_url": "https://codeforces.com/contest/1114/problem/A",
+    "submission_id": "CF97675061",
+    "submission_url": "https://codeforces.com/contest/1114/submission/97675061",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Nov/05/2020 10:28"
+  },
   "CF97692856": {
     "contest_id": 1114,
     "language": "GNU C++17",
