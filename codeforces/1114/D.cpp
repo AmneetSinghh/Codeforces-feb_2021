@@ -29,33 +29,21 @@
 #define tr cout<<"\n"
 #define br break
 #define mod 998244353 
-#define inf 10000000000000009
+#define inf 1000000000000000009
 using namespace std;
 
 const int N = 5005;
 int n, dp[N][N], a[N];
  
-int get(int l, int r)
-{
-  if(l==1 && r==n)
-    return 0;
-  int &ans=dp[l][r];
-  if(ans!=-1)
-    return ans;
-  ans=inf;
-  if(l-1>=1 && a[l-1]==a[l])
-    ans=min(ans, get(l-1, r));// got to left;
-  else if(l-1>=1)
-    ans=min(ans, 1 + get(l-1, r));
-  if(r+1<=n && a[r+1]==a[r])
-    ans=min(ans, get(l, r+1));
-  else if(r+1<=n)
-    ans=min(ans, 1 + get(l, r+1));// to rightl
-  if(l-1>=1 && r+1<=n && a[l-1]==a[r+1])
-    ans=min(ans, 1 + get(l-1, r+1));
-  return ans;
+int get(int l, int r){
+    if (l>=r) return 0;
+    if(dp[l][r]!=-1)return dp[l][r];
+    // go to the left, else go to the right, else check,  check if left side value==right side values, go from both left +1 and right -1;
+    dp[l][r] = min(get(l, r - 1) + 1, get(l + 1, r) + 1);
+    if (a[l] == a[r])
+      dp[l][r] = min(dp[l][r], get(l + 1, r - 1) + 1);// the main condition   when 4 5 4
+    return dp[l][r];
 }
-
 
 void Not_Stable()
 { 
@@ -68,10 +56,7 @@ void Not_Stable()
     }
     n = m;
     memset(dp,-1,sizeof dp);
-    int ans=inf;
-    for(int i=1;i<=n;i++)ans=min(ans,get(i,i));
-      cout<<ans;
-    tr;
+    cout <<get(1, n);
 
 
 }
