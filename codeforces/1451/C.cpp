@@ -52,31 +52,19 @@ int32_t main() {
     for(int i=0;i<b.size();i++)two[b[i]-'a']++;
     int flag=0;
     int total=0;
-    for(int i=0;i<26;i++)/// k is 8
+    for(int i=0;i<26;i++)
     {
-      int first=one[i];//17
-      int second=two[i];//16
-
-      // this is the wrong condition:   WHY
-      if(first%k || second%k)
-      {
-      	if(total%k)flag=1;
-      	total+=first;
-      	total-=second;
-      if(total<0)flag=1;// a b c d e f g h i j k l m n o p q r s t u v w z
-      if(total%k)flag=1;//  k k  k k k k k k kk k  k k  k k k  k k k  k k 
-      continue;
-      }
+      int first=one[i];
+      int second=two[i];
       total+=first;
       total-=second;
-      if(total<0)flag=1;// a b c d e f g h i j k l m n o p q r s t u v w z
-      if(total%k)flag=1;//  k k  k k k k k k kk k  k k  k k k  k k k  k k 
+      if(total<0)flag=1;
+      if(total%k)flag=1;
     }
 
     if(flag==1)cout<<"No";
     else cout<<"Yes";
     tr;
-
   }
 
 
