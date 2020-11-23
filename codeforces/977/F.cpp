@@ -104,10 +104,7 @@ int mx=0,start=0;
             m[v]=max(m[v],m[v-1]+1);
       }
       else    m[v]=m[v-1]+1;
-    }
-    for(auto sd:m)
-    {
-    	if(sd.second>mx)mx=sd.second,start=sd.first;
+      if(mx<m[v])mx=m[v],start=v;
     }
     vector<int> res;
 	for (int i = n; i >= 1; i--) {
