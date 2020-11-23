@@ -99,11 +99,7 @@ int mx=0,start=0;
     F(i,n)
     {
       int v=a[i];
-      if(m[v])
-      {
-            m[v]=max(m[v],m[v-1]+1);
-      }
-      else    m[v]=m[v-1]+1;
+      m[v]=m[v-1]+1;
       if(mx<m[v])mx=m[v],start=v;
     }
     vector<int> res;
