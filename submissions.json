@@ -1,4 +1,22 @@
 {
+  "CF100136316": {
+    "contest_id": 1086,
+    "language": "GNU C++14",
+    "path": "codeforces\\1086\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Minimum Diameter Tree",
+    "problem_url": "https://codeforces.com/contest/1086/problem/B",
+    "submission_id": "CF100136316",
+    "submission_url": "https://codeforces.com/contest/1086/submission/100136316",
+    "tags": [
+      "greedy",
+      "implementation",
+      "trees",
+      "*1700"
+    ],
+    "timestamp": "Dec/01/2020 23:01"
+  },
   "CF100201073": {
     "contest_id": 893,
     "language": "GNU C++14",
