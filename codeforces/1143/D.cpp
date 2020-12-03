@@ -18,14 +18,11 @@ ll gcd(ll a,ll b){
   return gcd(b,a%b);
 }
 ll Abs(ll x){return x<0?-x:x;}
-
-
-
 void calc(ll a,ll b){
   for (;b<=n*k;b+=k){
     ll dis=Abs(a-b);
     // if (dis==0)continue;
-    ll st=n*k/gcd(n*k,dis);// distance, we have to explore; we have to explore all the values of  the k;
+    ll st=n*k/gcd(n*k,dis);
     mx=max(mx,st);
     mn=min(mn,st);
   } 
@@ -42,8 +39,6 @@ int32_t main() {
       
    cin>>n>>k>>a>>b;
   mx=1,mn=n*k;
-
-  // just we have to explore all the possible operations;
   calc(a+k,b+k);
   calc(k-a,b);
   calc(a,k-b);

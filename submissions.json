@@ -1,4 +1,22 @@
 {
+  "CF100257240": {
+    "contest_id": 1143,
+    "language": "GNU C++14",
+    "path": "codeforces\\1143\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "The Beatles",
+    "problem_url": "https://codeforces.com/contest/1143/problem/D",
+    "submission_id": "CF100257240",
+    "submission_url": "https://codeforces.com/contest/1143/submission/100257240",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Dec/03/2020 15:08"
+  },
   "CF100257401": {
     "contest_id": 1143,
     "language": "GNU C++14",
