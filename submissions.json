@@ -1,4 +1,20 @@
 {
+  "CF100239441": {
+    "contest_id": 1143,
+    "language": "GNU C++14",
+    "path": "codeforces\\1143\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The Doors",
+    "problem_url": "https://codeforces.com/contest/1143/problem/A",
+    "submission_id": "CF100239441",
+    "submission_url": "https://codeforces.com/contest/1143/submission/100239441",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/03/2020 11:04"
+  },
   "CF100241142": {
     "contest_id": 1143,
     "language": "GNU C++14",
