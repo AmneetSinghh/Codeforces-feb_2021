@@ -1,4 +1,20 @@
 {
+  "CF100778318": {
+    "contest_id": 965,
+    "language": "GNU C++14",
+    "path": "codeforces\\965\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Battleship",
+    "problem_url": "https://codeforces.com/contest/965/problem/B",
+    "submission_id": "CF100778318",
+    "submission_url": "https://codeforces.com/contest/965/submission/100778318",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Dec/09/2020 21:19"
+  },
   "CF100813406": {
     "contest_id": 1423,
     "language": "GNU C++14",
