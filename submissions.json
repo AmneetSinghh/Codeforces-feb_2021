@@ -1,4 +1,22 @@
 {
+  "CF100890887": {
+    "contest_id": 1173,
+    "language": "GNU C++14",
+    "path": "codeforces\\1173\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Nauuo and Cards",
+    "problem_url": "https://codeforces.com/contest/1173/problem/C",
+    "submission_id": "CF100890887",
+    "submission_url": "https://codeforces.com/contest/1173/submission/100890887",
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Dec/11/2020 15:18"
+  },
   "CF100960383": {
     "contest_id": 1461,
     "language": "GNU C++14",
