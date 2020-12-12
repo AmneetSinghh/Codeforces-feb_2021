@@ -1,4 +1,20 @@
 {
+  "CF101001450": {
+    "contest_id": 1095,
+    "language": "GNU C++14",
+    "path": "codeforces\\1095\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Almost Regular Bracket Sequence",
+    "problem_url": "https://codeforces.com/contest/1095/problem/E",
+    "submission_id": "CF101001450",
+    "submission_url": "https://codeforces.com/contest/1095/submission/101001450",
+    "tags": [
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Dec/12/2020 14:14"
+  },
   "CF101005382": {
     "contest_id": 1095,
     "language": "GNU C++14",
