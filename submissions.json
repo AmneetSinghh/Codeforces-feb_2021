@@ -1,4 +1,20 @@
 {
+  "CF101181755": {
+    "contest_id": 1213,
+    "language": "GNU C++14",
+    "path": "codeforces\\1213\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Chips Moving",
+    "problem_url": "https://codeforces.com/contest/1213/problem/A",
+    "submission_id": "CF101181755",
+    "submission_url": "https://codeforces.com/contest/1213/submission/101181755",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Dec/14/2020 20:30"
+  },
   "CF101222450": {
     "contest_id": 370,
     "language": "GNU C++14",
