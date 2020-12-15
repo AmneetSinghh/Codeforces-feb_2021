@@ -1,4 +1,22 @@
 {
+  "CF101222450": {
+    "contest_id": 370,
+    "language": "GNU C++14",
+    "path": "codeforces\\370\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Mittens",
+    "problem_url": "https://codeforces.com/contest/370/problem/C",
+    "submission_id": "CF101222450",
+    "submission_url": "https://codeforces.com/contest/370/submission/101222450",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Dec/15/2020 12:21"
+  },
   "CF101227170": {
     "contest_id": 827,
     "language": "GNU C++14",
