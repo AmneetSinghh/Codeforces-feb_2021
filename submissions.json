@@ -1,4 +1,22 @@
 {
+  "CF101395139": {
+    "contest_id": 1155,
+    "language": "GNU C++14",
+    "path": "codeforces\\1155\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Game with Telephone Numbers",
+    "problem_url": "https://codeforces.com/contest/1155/problem/B",
+    "submission_id": "CF101395139",
+    "submission_url": "https://codeforces.com/contest/1155/submission/101395139",
+    "tags": [
+      "games",
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Dec/16/2020 13:16"
+  },
   "CF101401771": {
     "contest_id": 1155,
     "language": "GNU C++14",
