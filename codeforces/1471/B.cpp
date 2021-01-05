@@ -1,39 +1,62 @@
+/* Coding is love */
 #include<bits/stdc++.h>
-#define pb(x) push_back(x);
-#define ll long long int 
+#define int long long 
+#define io ios_base::sync_with_stdio(false),cin.tie(nullptr);
+#define ipair pair<int,int>
+#define pb push_back
+#define F(i, n) for(int i=1;i<=n;i++)
+#define all(v) v.begin(),v.end()
+#define tr cout<<endl;
+#define mod 1000000007
+#define inf 100000000000009;
 using namespace std;
 
-int main(){
-    
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-    
-    ll t;
-    cin>>t;
-    
-    while(t--){
-        ll n,x;
-        cin>>n>>x;
-        vector<pair<ll,ll>>v;
-        for(ll i=0;i<n;i++){
-            ll ele;
-            cin>>ele;
-            v.pb(make_pair(1,ele));
-        }
-        for(ll i=0;i<v.size();i++){
-            ll fir = v[i].first;
-            ll sec = v[i].second;
-            if (sec%x)break;
-            int ele = sec / x;
-            v.push_back(make_pair(fir * x, ele));
-        }
-        
-        ll sum = 0;
-        for(ll i=0;i<v.size();i++) sum+=v[i].first*v[i].second;
-        
-        cout<<sum<<"\n";
-    }
-    
-    return 0;
+
+
+int32_t main() 
+{
+    io;
+  int g;cin>>g;
+    while (g--){
+
+
+    	int n,x;
+    cin>>n>>x;
+    int a[n+1];
+    std::vector<int> vc;
+           std::vector<int> dp;
+
+       F(i,n)cin>>a[i],vc.pb(a[i]),dp.pb(1);
+       int sum=0;
+     for(int i=0;i<vc.size();i++)
+     {
+
+     	// cout<<vc[i]<<" "<<dp[i];tr;
+     	if(vc[i]%x==0)
+     	{
+          vc.pb(vc[i]/x);
+          dp.pb(dp[i]*x);
+     	}
+     	else
+     	{
+     		break;
+     	}
+     }
+
+
+for(int i=0;i<vc.size();i++)
+{
+	if(i>=n)sum+=((dp[i])*vc[i]);
+	else sum+=(dp[i]*vc[i]);
 }
+
+     cout<<sum;tr;
+}
+}
+
+
+
+
+
+
+
