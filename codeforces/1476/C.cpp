@@ -30,11 +30,11 @@ int ans=0;
 int best_len=abs(a[2]-b[2]);// one for this;
 for(int i=2;i<=n;i++)
 {
-  int val=1+best_len+c[i];
-  int next=abs(a[i+1]-b[i+1]);
-  ans=max(ans,val);
-  if(i<n and a[i+1]!=b[i+1])best_len=max(val-next,next);
-  else   best_len=0;
+  ans=max(ans,best_len+1+c[i]);// htius means not the last;
+  if(i<n and a[i+1]!=b[i+1])
+  best_len=max(best_len+1+c[i]-abs(a[i+1]-b[i+1]),abs(a[i+1]-b[i+1]));
+  else 
+  best_len=0;
 }
 
 cout<<ans;
