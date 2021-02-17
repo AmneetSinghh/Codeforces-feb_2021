@@ -12,12 +12,13 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-530 | [C - Road Improvement](https://codeforces.com/contest/638/problem/C) | [GNU C++14](./codeforces/638/C.cpp) | `*special problem` `dfs and similar` `graphs` `greedy` `trees` `*1800` | Feb/18/2021 15:01 | 
-529 | [C - Report](https://codeforces.com/contest/631/problem/C) | [GNU C++14](./codeforces/631/C.cpp) | `data structures` `sortings` `*1700` | Feb/18/2021 12:47 | 
-528 | [I - Parking Lot](https://codeforces.com/contest/630/problem/I) | [GNU C++14](./codeforces/630/I.cpp) | `combinatorics` `math` `*1700` | Feb/18/2021 11:35 | 
-527 | [B - Factory Repairs](https://codeforces.com/contest/627/problem/B) | [GNU C++14](./codeforces/627/B.cpp) | `data structures` `*1700` | Feb/17/2021 22:59 | 
-526 | [A - XOR Equation](https://codeforces.com/contest/627/problem/A) | [GNU C++14](./codeforces/627/A.cpp) | `dp` `math` `*1700` | Feb/17/2021 20:57 | 
-525 | [A - Guest From the Past](https://codeforces.com/contest/625/problem/A) | [GNU C++14](./codeforces/625/A.cpp) | `implementation` `math` `*1700` | Feb/17/2021 18:57 | 
+531 | [C - Road Improvement](https://codeforces.com/contest/638/problem/C) | [GNU C++14](./codeforces/638/C.cpp) | `*special problem` `dfs and similar` `graphs` `greedy` `trees` `*1800` | Feb/18/2021 15:01 | 
+530 | [C - Report](https://codeforces.com/contest/631/problem/C) | [GNU C++14](./codeforces/631/C.cpp) | `data structures` `sortings` `*1700` | Feb/18/2021 12:47 | 
+529 | [I - Parking Lot](https://codeforces.com/contest/630/problem/I) | [GNU C++14](./codeforces/630/I.cpp) | `combinatorics` `math` `*1700` | Feb/18/2021 11:35 | 
+528 | [B - Factory Repairs](https://codeforces.com/contest/627/problem/B) | [GNU C++14](./codeforces/627/B.cpp) | `data structures` `*1700` | Feb/17/2021 22:59 | 
+527 | [A - XOR Equation](https://codeforces.com/contest/627/problem/A) | [GNU C++14](./codeforces/627/A.cpp) | `dp` `math` `*1700` | Feb/17/2021 20:57 | 
+526 | [A - Guest From the Past](https://codeforces.com/contest/625/problem/A) | [GNU C++14](./codeforces/625/A.cpp) | `implementation` `math` `*1700` | Feb/17/2021 18:57 | 
+525 | [C - Not Equal on a Segment](https://codeforces.com/contest/622/problem/C) | [GNU C++14](./codeforces/622/C.cpp) | `data structures` `implementation` `*1700` | Feb/17/2021 15:59 | 
 524 | [D - Pythagorean Triples](https://codeforces.com/contest/1487/problem/D) | [GNU C++14](./codeforces/1487/D.cpp) | `binary search` `brute force` `math` `number theory` `*1500` | Feb/15/2021 21:59 | 
 523 | [B - Cat Cycle](https://codeforces.com/contest/1487/problem/B) | [GNU C++14](./codeforces/1487/B.cpp) | `math` `number theory` `*1200` | Feb/15/2021 21:15 | 
 522 | [A - Arena](https://codeforces.com/contest/1487/problem/A) | [GNU C++14](./codeforces/1487/A.cpp) | `implementation` `sortings` `*800` | Feb/15/2021 20:09 | 
