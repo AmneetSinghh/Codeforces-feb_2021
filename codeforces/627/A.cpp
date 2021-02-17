@@ -30,7 +30,7 @@ void Not_Stable()
     return;
   }
   diff/=2;
-  int ans=1;// all the possilble cases, if a =101010 b=10101 check we can take one in both of these positions
+  int ans=1;
   for(int i=0;i<=40;i++){
     if(b&(1ll<<i))ans*=2;
     if(diff&(1ll<<i)){
