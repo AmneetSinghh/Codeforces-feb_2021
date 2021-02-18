@@ -1411,6 +1411,23 @@
     ],
     "timestamp": "Feb/15/2021 21:59"
   },
+  "CF107746317": {
+    "contest_id": 630,
+    "language": "GNU C++14",
+    "path": "codeforces\\630\\I.cpp",
+    "platform": "Codeforces",
+    "problem_index": "I",
+    "problem_name": "Parking Lot",
+    "problem_url": "https://codeforces.com/contest/630/problem/I",
+    "submission_id": "CF107746317",
+    "submission_url": "https://codeforces.com/contest/630/submission/107746317",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Feb/18/2021 11:35"
+  },
   "CF107751276": {
     "contest_id": 631,
     "language": "GNU C++14",
