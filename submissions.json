@@ -1549,6 +1549,23 @@
     ],
     "timestamp": "Feb/18/2021 15:01"
   },
+  "CF107872162": {
+    "contest_id": 1486,
+    "language": "GNU C++14",
+    "path": "codeforces\\1486\\C2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Guessing the Greatest (hard version)",
+    "problem_url": "https://codeforces.com/contest/1486/problem/C2",
+    "submission_id": "CF107872162",
+    "submission_url": "https://codeforces.com/contest/1486/submission/107872162",
+    "tags": [
+      "binary search",
+      "interactive",
+      "*1900"
+    ],
+    "timestamp": "Feb/18/2021 23:25"
+  },
   "CF107876976": {
     "contest_id": 1486,
     "language": "GNU C++14",
