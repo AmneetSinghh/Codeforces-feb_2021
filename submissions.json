@@ -1549,6 +1549,25 @@
     ],
     "timestamp": "Feb/18/2021 15:01"
   },
+  "CF108453107": {
+    "contest_id": 1490,
+    "language": "GNU C++14",
+    "path": "codeforces\\1490\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sum of Cubes",
+    "problem_url": "https://codeforces.com/contest/1490/problem/C",
+    "submission_id": "CF108453107",
+    "submission_url": "https://codeforces.com/contest/1490/submission/108453107",
+    "tags": [
+      "binary search",
+      "brute force",
+      "brute force",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Feb/25/2021 12:19"
+  },
   "CF108454522": {
     "contest_id": 1490,
     "language": "GNU C++14",
